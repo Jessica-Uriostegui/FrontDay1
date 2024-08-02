@@ -1,0 +1,110 @@
+body{
+    background-image: url('assets/istockphoto-531195740-612x612.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+button:hover {
+    background-color: #d17335;
+    color: white;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    transform: scale(1.05);
+}
+button{
+    background-color: #d17335;
+    color: white;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    
+}
+.ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.li {
+   margin-right: 10px;
+   padding: 5px;
+}
+
+.p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:5px;
+    
+
+}
+p{
+    color:peru;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+}
+.movie-list-container {
+    background-color:(255, 255, 255, 0.8);
+    border: 2px solid #5d5050;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 10px 10px rgba(214, 208, 208, 0.2);
+    width: 75%;
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.movie-item {
+    display: flex;
+    align-items: center;
+    gap:10 px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.movie-details{
+    display: flex;
+    align-items: center;
+    width: 200%;
+}
+
+movie.image {
+    width: 150px;
+    height: auto;
+    max-height: 125px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 5px;
+    align-items:column;
+    display:flex;
+}
+.movie-info:hover{
+    background-color: #590909;
+    border-radius: 5px;
+    padding: 2px;
+    box-shadow: 0 5px 5px rgba(89, 82, 82, 0.901);
+    transform: scale(.55);
+    transition: all 0.3s;
+}
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    gap:20px;
+}
+
+
